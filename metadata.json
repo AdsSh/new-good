@@ -1,0 +1,11 @@
+{
+  "name": "PermitFlow",
+  "description": "A comprehensive building permit and architectural design platform featuring automated onboarding, project tracking, and AI-powered permit roadmap generation.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

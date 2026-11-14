@@ -1,0 +1,25 @@
+{
+  "name": "PermitFlow - Building Permit & Architectural Design Platform",
+  "short_name": "PermitFlow",
+  "description": "A comprehensive building permit and architectural design platform featuring automated onboarding, project tracking, and AI-powered permit roadmap generation.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAFAFA",
+  "theme_color": "#148E80",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
