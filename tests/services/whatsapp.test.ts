@@ -104,11 +104,11 @@ describe('service enquiry', () => {
   it('includes the bold service name and estimated price', () => {
     const msg = buildWhatsAppMessage('service_enquiry', {
       serviceName: 'LASPPPA Permit Processing',
-      servicePrice: '₦500,000 – ₦750,000',
+      servicePrice: '₦500,000 – ₦1,000,000+',
       lga: 'Surulere',
     });
     expect(msg).toContain('*LASPPPA Permit Processing*');
-    expect(msg).toContain('(Est: ₦500,000 – ₦750,000)');
+    expect(msg).toContain('(Est: ₦500,000 – ₦1,000,000+)');
     expect(msg).toContain('for a building permit in Lagos (Surulere).');
   });
 

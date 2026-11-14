@@ -14,7 +14,7 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
   {
     id: 'management',
     name: 'LASPPPA Permit Processing',
-    price: '₦500,000 – ₦750,000',
+    price: '₦500,000 – ₦1,000,000+',
     priceSub: 'Standalone Facilitation',
     description: 'Covers: District Officer liaison, EPPES portal registration, assessment invoice generation, tax clearance alignment, and physical clearance follow-up.',
     features: [
