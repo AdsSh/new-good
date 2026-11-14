@@ -25,6 +25,24 @@ Deploy PermitFlow as a single Cloudflare Pages project:
 > The Vercel setup (`api/roadmap.ts` + `vercel.json`) still works. Both server
 > runtimes share validation/response logic in `server/roadmapCore.ts`.
 
+## Current deployment
+
+| Item | Value |
+|------|-------|
+| Live URL | https://permitflow.pages.dev |
+| GitHub | https://github.com/AdsSh/new-good |
+| Pages project | `permitflow` (Direct Upload) |
+| Deploy command | `npx wrangler pages deploy dist --project-name permitflow --branch main --commit-dirty=true` |
+
+Cloudflare does not allow converting an existing **Direct Upload** project to
+Git integration. Automatic deploys on push therefore require either:
+
+1. a new Git-integrated Pages project (recommended — follow §3 below), or
+2. a GitHub Actions workflow that runs the deploy command above with a
+   `CLOUDFLARE_API_TOKEN` repository secret.
+
+Until one of those is configured, redeploy manually with the command above.
+
 ---
 
 ## 1. Prerequisites
